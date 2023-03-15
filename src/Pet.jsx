@@ -4,8 +4,7 @@ const Pet = (props) => {
       <h1>{props.name}</h1>
       <h2>{props.animal}</h2>
       <h2>{props.breed}</h2>
-      <h2>{props.city}</h2>
-      <hr />
+      <h2>{props.location}</h2>
     </div>
   );
 };
